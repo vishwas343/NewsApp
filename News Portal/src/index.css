@@ -1,0 +1,27 @@
+.loginbtnicon{
+  font-size: 45px;
+}
+
+.logo {
+  height: 50px; /* Default height for mobile and smaller screens */
+}
+
+@media (min-width: 768px) {
+  /* For screens larger than 768px (medium and above) */
+  .logo {
+    height: 85px;
+  }
+}
+
+.hover-black{
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.hover-black:hover {
+  color: rgb(243, 76, 43) !important;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
